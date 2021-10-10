@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.3
+
+- Fixed shields in README.md.
+
 ## 0.1.2
 
 - Fixed misleading documentation.
