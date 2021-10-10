@@ -1,5 +1,7 @@
 # Bootstrap Icons
 
+<!-- MDOC !-->
+
 [![Module Version](https://img.shields.io/hexpm/v/bootstrap_icons_elixir.svg)](https://hex.pm/packages/bootstrap_icons_elixir)
 [![Hex Docs](https://img.shields.io/badge/hex-docs-lightgreen.svg)](https://hexdocs.pm/bootstrap_icons_elixir/)
 [![Total Download](https://img.shields.io/hexpm/dt/bootstrap_icons_elixir.svg)](https://hex.pm/packages/bootstrap_icons_elixir)

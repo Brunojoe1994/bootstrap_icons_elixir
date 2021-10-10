@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1
+
+- Fixed documentation.
+
 ## 0.1.0
 
 - Forked [heroicons_elixir](https://github.com/mveytsman/heroicons_elixir) as the basis of this project.

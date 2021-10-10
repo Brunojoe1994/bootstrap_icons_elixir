@@ -1,10 +1,9 @@
 defmodule Bootstrap do
-  @moduledoc """
-  This library provides functions for every [Bootstrap Icons](https://icons.getbootstrap.com).
-  See `Bootstrap.Icons` for the icons.
-
-  Bootstrap Icons are designed by [Bootstrap Team](https://twitter.com/getbootstrap)
-  """
+  @external_resource readme = "README.md"
+  @moduledoc readme
+             |> File.read!()
+             |> String.split("<!-- MDOC !-->")
+             |> Enum.fetch!(1)
 
   @doc false
   defmacro __before_compile__(%Macro.Env{module: module}) do
