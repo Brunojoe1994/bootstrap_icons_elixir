@@ -42,7 +42,7 @@ defmodule Bootstrap do
 
     ## Examples
         iex> #{name}()
-        iex> #{name}(class: "text-danger fs-2")
+        iex> #{name}(class: "text-danger", width: 32, height: 32)
     """
 
     quote do

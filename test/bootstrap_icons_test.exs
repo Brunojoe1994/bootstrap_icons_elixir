@@ -11,9 +11,9 @@ defmodule BootstrapIconsTest do
            |> Phoenix.HTML.safe_to_string() ==
              alarm
 
-    assert Bootstrap.Icons.alarm(class: "text-danger fs-2")
+    assert Bootstrap.Icons.alarm(class: "text-danger", width: 32, height: 32)
            |> Phoenix.HTML.safe_to_string() =~
-             ~s(class="bi bi-alarm text-danger fs-2")
+             ~s(class="bi bi-alarm text-danger")
 
     assert Bootstrap.Icons.alarm(class: "<> \" ")
            |> Phoenix.HTML.safe_to_string() =~
@@ -34,6 +34,14 @@ defmodule BootstrapIconsTest do
     refute Bootstrap.Icons.alarm(viewBox: "0 0 12 12")
            |> Phoenix.HTML.safe_to_string() =~
              ~s(viewBox=\"0 0 24 24\")
+
+    assert Bootstrap.Icons.alarm(width: 32)
+           |> Phoenix.HTML.safe_to_string() =~
+             ~s(width="32")
+
+    assert Bootstrap.Icons.alarm(height: 32)
+           |> Phoenix.HTML.safe_to_string() =~
+             ~s(height="32")
   end
 
   test "generated docs" do
@@ -51,7 +59,7 @@ defmodule BootstrapIconsTest do
 
            ## Examples
                iex> alarm()
-               iex> alarm(class: "text-danger fs-2")
+               iex> alarm(class: "text-danger", width: 32, height: 32)
            """
   end
 end

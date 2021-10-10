@@ -37,7 +37,7 @@ The icons are in `BootstrapIcons`. You can get an icon by name
 and style it with some classes
 
 ```eex
-<%= Bootstrap.Icons.alarm(class: "text-danger fs-2") %>
+<%= Bootstrap.Icons.alarm(class: "text-danger", width: 32, height: 32) %>
 ```
 
 Note these functions return `Phoenix.HTML.Safe` iodata:

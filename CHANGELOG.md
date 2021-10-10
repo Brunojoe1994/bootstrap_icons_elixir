@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.2
+
+- Fixed misleading documentation.
+
 ## 0.1.1
 
 - Fixed documentation.
