@@ -2,10 +2,10 @@
 
 <!-- MDOC !-->
 
-[![Module Version](https://img.shields.io/hexpm/v/bootstrap_icons_elixir.svg)](https://hex.pm/packages/bootstrap_icons_elixir)
-[![Hex Docs](https://img.shields.io/badge/hex-docs-lightgreen.svg)](https://hexdocs.pm/bootstrap_icons_elixir/)
-[![Total Download](https://img.shields.io/hexpm/dt/bootstrap_icons_elixir.svg)](https://hex.pm/packages/bootstrap_icons_elixir)
-[![License](https://img.shields.io/hexpm/l/bootstrap_icons_elixir.svg)](https://github.com/oliverandrich/bootstrap_icons_elixir/blob/master/LICENSE.txt)
+[![Module Version](https://img.shields.io/hexpm/v/bootstrap_icons_elixir.svg)](https://hex.pm/packages/bootstrap_icons/)
+[![Hex Docs](https://img.shields.io/badge/hex-docs-lightgreen.svg)](https://hexdocs.pm/bootstrap_icons/)
+[![Total Download](https://img.shields.io/hexpm/dt/bootstrap_icons.svg)](https://hex.pm/packages/bootstrap_icons)
+[![License](https://img.shields.io/hexpm/l/bootstrap_icons.svg)](https://github.com/oliverandrich/bootstrap_icons_elixir/blob/master/LICENSE.txt)
 [![Last Updated](https://img.shields.io/github/last-commit/oliverandrich/bootstrap_icons_elixir.svg)](https://github.com/oliverandrich/bootstrap_icons_elixir/commits/master)
 
 [Bootstrap Icons](https://icons.getbootstrap.com) is a "free, high quality, open source icon library with over 1,300 icons". This package gives you Elixir functions to drop Bootstrap Icons into your HTML, styled with arbitrary classes.
