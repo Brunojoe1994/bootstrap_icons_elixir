@@ -1,19 +1,36 @@
-defmodule HeroiconsElixir.MixProject do
+defmodule BootstrapIconsElixir.MixProject do
   use Mix.Project
+
+  @repo_url "https://github.com/oliverandrich/bootstrap_icons_elixir"
+  @version "0.1.0"
 
   def project do
     [
-      app: :heroicons,
-      version: "0.2.3",
-      elixir: "~> 1.11",
+      app: :bootstrap_icons,
+      version: @version,
+      elixir: "~> 1.10",
       start_permanent: Mix.env() == :prod,
+      package: package(),
       deps: deps(),
-      name: "Heroicons",
-      source_url: "https://github.com/mveytsman/heroicons_elixir",
-      description: "Include Heroicons as SVG-strings in your Elixir/Phoenix project!",
-      docs: docs(),
-      package: package()
+      name: "Bootstrap Icons",
+      source_url: @repo_url,
+      homepage_url: @repo_url,
+      description: description(),
+      docs: [
+        main: "Bootstrap Icons",
+        api_reference: false,
+        source_ref: @version,
+        extras: ["README.md"],
+        extra_section: [],
+        assets: "priv/"
+      ]
     ]
+  end
+
+  defp description do
+    """
+    Include Bootstrap icons as SVG-strings in your Elixir/Phoenix project!,
+    """
   end
 
   # Run "mix help compile.app" to learn about applications.
@@ -33,14 +50,11 @@ defmodule HeroiconsElixir.MixProject do
 
   defp package do
     [
+      name: :bootstrap_icons,
+      files: ["lib", "priv", "mix.exs", "README*", "LICENSE*"],
+      maintainers: ["Oliver Andrich, oliver@andrich.me"],
       licenses: ["MIT"],
-      links: %{"GitHub" => "https://github.com/mveytsman/heroicons_elixir"}
-    ]
-  end
-
-  defp docs do
-    [
-      assets: "priv/"
+      links: %{"GitHub" => @repo_url}
     ]
   end
 end
