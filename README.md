@@ -2,7 +2,7 @@
 
 <!-- MDOC !-->
 
-[![Module Version](https://img.shields.io/hexpm/v/bootstrap_icons_elixir.svg)](https://hex.pm/packages/bootstrap_icons/)
+[![Module Version](https://img.shields.io/hexpm/v/bootstrap_icons.svg)](https://hex.pm/packages/bootstrap_icons/)
 [![Hex Docs](https://img.shields.io/badge/hex-docs-lightgreen.svg)](https://hexdocs.pm/bootstrap_icons/)
 [![Total Download](https://img.shields.io/hexpm/dt/bootstrap_icons.svg)](https://hex.pm/packages/bootstrap_icons)
 [![License](https://img.shields.io/hexpm/l/bootstrap_icons.svg)](https://github.com/oliverandrich/bootstrap_icons_elixir/blob/master/LICENSE.txt)
