@@ -2,7 +2,7 @@ defmodule BootstrapIconsElixir.MixProject do
   use Mix.Project
 
   @repo_url "https://github.com/oliverandrich/bootstrap_icons_elixir"
-  @version "0.1.3"
+  @version "0.2.0"
 
   def project do
     [

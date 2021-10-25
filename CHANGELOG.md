@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.0
+
+- Updated to Bootstrap Icons 1.6.1.
+
 ## 0.1.3
 
 - Fixed shields in README.md.
