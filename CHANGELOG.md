@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.0
+
+- Updated to Bootstrap Icons 1.7.0.
+
 ## 0.2.0
 
 - Updated to Bootstrap Icons 1.6.1.

@@ -19,7 +19,7 @@ Add Bootstrap Icons to your `mix.exs`:
 ```elixir
 defp deps do
   [
-    {:bootstrap_icons, "~> 0.1.0"}
+    {:bootstrap_icons, "~> 0.3.0"}
   ]
 end
 ```
